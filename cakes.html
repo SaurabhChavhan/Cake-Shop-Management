@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cake shop</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<script src="https://kit.fontawesome.com/4e55c5f54e.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: gray;
+	color:black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.7rem;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color:black;
+	text-decoration: none;
+	padding: 1rem;
+	font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+	font-weight: bolder;
+
+
+}
+.navbar ul li a:hover{
+	color: #59262d;
+}
+.logo{
+font-family: 'Lobster', cursive;	
+}
+.color-text{
+	color: #59262d;
+}
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20px;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 50%;
+    float: left;
+    margin-left: 45%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+.btn-primary{
+    /* border: 2px solid #59262B; */
+    text-decoration: none;
+    padding: 9px;
+    background-color: #8b4513;
+    color: white;
+    border-radius: 8px;
+}
+
+
+</style>
+<body>
+   
+<nav class="navbar">
+	<h1 class="logo"><span class="color-text">Central Perk</span> Cakes</h1>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Login/Sign Up</a></li>
+		<!-- <li><a href="#About">About</a></li>
+		<li><a href="#Contact">Contact</a></li> -->
+	</ul>
+</nav>
+<!-- fOOD MEnu Section Starts Here -->
+<section class="food-menu">
+    <div class="container">
+        <!-- <h2 class="text-center">Cakes</h2> -->
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSy7Fiw1QoP7KEA6ZAo0w6_zeR5o0G72pGEQ&usqp=CAU"  alt="Red Velvet Cake " class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Red Velvet Cake</h4>
+                <p class="food-price">Rs.700</p>
+                <p class="food-detail">
+                    the most incredible red velvet cake with cream cheese frosting! fluffy, soft, buttery and moist with the most perfect velvet texture!
+                </p>
+                <br>
+
+                <a href="order.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMNcoULRHw61Vqfsff_IudzK3UwEPxcFDxlA&usqp=CAU" alt=" Chocalate Truffle Cake" class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Chocalate Truffle Cake</h4>
+                <p class="food-price">Rs.1000</p>
+                <p class="food-detail">
+                    A chocolate layer cake recipe with dense, moist chocolate cake, silky chocolate truffle frosting and chocolate flakes. 
+                </p>
+                <br>
+                <br>
+
+                <a href="o1.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_McoQzcRGlFBTR1YD9EZvGTbAvh73LqzKXKbky60YaqXb45g0iqmC2zy40H9-x2dHs8&usqp=CAU" alt="Rasmalai Flavoured cake" class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Rasmalai Flavoured cake</h4>
+                <p class="food-price">Rs.575</p>
+                <p class="food-detail">
+                    Rasmalai cake is a fun fusion dessert to celebrate festivities or any special occasion. It combines flavors of the Indian dessert Rasmalai in the form of cake making it totally irresistible! Egg-free and delicious!
+                </p>
+                <br>
+
+                <a href="o2.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4xrysRiR-ToSYmqRAHTm785giIzugtm5zdw&usqp=CAU" alt="Pineapple cake" class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Pineapple cake</h4>
+                <p class="food-price">Rs.450</p>
+                <p class="food-detail">
+                    Whipped cream smothered between soft layers of sponge cake, soaked in pineapple syrup and topped with slices of pineapples. 
+                </p>
+                <br>
+                <br>
+                <br>
+
+                <a href="o3.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJeQ4a4YZeFiLu91eQK6mXrgqrrm1VYo2JQ&usqp=CAU" alt="Black forest cake " class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Black forest cake</h4>
+                <p class="food-price">Rs.500</p>
+                <p class="food-detail">
+                    Whipped cream, chocolate, and cherries are a match made in heaven so you better believe this black forest cake is AMAZING!!!
+                </p>
+                <br>
+
+                <a href="o4.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-menu-box">
+            <div class="food-menu-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtPzqINm5PnwZGh51PWpIP3WEumE-frrEmg&usqp=CAU" alt="Mirror glaze cake " class="img-responsive img-curve">
+            </div>
+
+            <div class="food-menu-desc">
+                <h4>Mirror glaze cake</h4>
+                <p class="food-price">Rs.860</p>
+                <p class="food-detail">
+                    Is the most stunning of all cake glazes! Made with a simple mixture of cocoa, cream, sugar, water and gelatine,
+                </p>
+                <br>
+               
+
+                <a href="o5.html" class=" btn-primary">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDDEIPwDKpNEPnW4cUgQ5jYFAhrSV-bFvRCg&usqp=CAU" alt="Pull me up cake " class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>Pull me up cake</h4>
+            <p class="food-price">Rs.450</p>
+            <p class="food-detail">
+                Pull up the protective film, watch the rich chocolate ganache cascade and cover the lip-smacking truffle base. Pull-me-up cakes are a treat to both your taste buds and the eye!
+            </p>
+            <br>
+
+            <a href="o6.html" class=" btn-primary">Order Now</a>
+        </div>
+    </div>
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VSn_6W00QBBymBUKZnNDzCCcbTZvB_u-lg&usqp=CAU" alt="White forest cake " class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>White forest cake</h4>
+            <p class="food-price">Rs.350</p>
+            <p class="food-detail">
+                This delightful and rich in taste. this cake melt in mouth and colorful cake too.
+            </p>
+            <br>
+            <br>
+            <br>
+
+            <a href="o7.html" class=" btn-primary">Order Now</a>
+        </div>
+    </div>
+
+</section>
+<!-- fOOD Menu Section Ends Here -->
+
+</body>
+</html>
